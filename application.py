@@ -9,7 +9,7 @@ import config
 
 application = Flask(__name__)
 
-application.config['SECRET_KEY'] = config.secretkey #'secret'
+application.config['SECRET_KEY'] = config.secretkey
 
 
 
